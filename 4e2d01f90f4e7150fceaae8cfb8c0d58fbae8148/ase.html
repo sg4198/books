@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ase.css">
+    <title>ASE Math Club</title>
+    <!-- Conditionally load WC polyfills -->
+    <!-- Thanks to https://github.com/geelen/x-gif for the snippet -->
+    <script>if (!('registerElement' in document
+      && 'createShadowRoot' in HTMLElement.prototype
+      && 'import' in document.createElement('link')
+      && 'content' in document.createElement('template'))) {
+            document.write('<script src="bower_components/webcomponentsjs/webcomponents.min.js"><\/script>');
+      }</script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="src/html-include.js"></script>
+  </head>
+  <body>
+    <div id="content-wrapper">
+    <html-include src="header.html"></html-include>
+    <br /><br />
+    <div id="page-content">
+      <h1>ASE</h1>
+      <h1>Handouts</h1>
+      <ol>
+        <li>Introduction to the ASE Handouts (<a href="Handouts/ASE_Handout_00__Introduction.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        Read this first!
+        <li>Casework (<a href="Handouts/ASE_Handout_01__Casework.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        A few formulas and problems in casework.
+      </ol>
+      <h1>Lesson Notes</h1>
+      <ol>
+        <li>04/26/20 Lesson Notes (<a href="Handouts/ASE_Lesson_Notes_for_Sunday__04_26_20.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        Notes for Sunday, 04/26/20 over Mathleague 12024.
+      </ol>
+    </div>
+    <html-include src="footer.html"></html-include>
+  </div>
+  </body>
+</html>

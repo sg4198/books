@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>About Me</title>
+    <!-- Conditionally load WC polyfills -->
+    <!-- Thanks to https://github.com/geelen/x-gif for the snippet -->
+    <script>if (!('registerElement' in document
+      && 'createShadowRoot' in HTMLElement.prototype
+      && 'import' in document.createElement('link')
+      && 'content' in document.createElement('template'))) {
+            document.write('<script src="bower_components/webcomponentsjs/webcomponents.min.js"><\/script>');
+      }</script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="src/html-include.js"></script>
+  </head>
+  <body>
+    <div id="content-wrapper">
+    <html-include src="header.html"></html-include>
+    <br /><br />
+    <div id="page-content">
+      <h1>About Me</h1>
+      Hello there! My name is Sohil Doshi. I am currently a junior in high school and am interested in mathematics, physics, computer science, and tennis.
+        <li>Mathematics: I always liked working with numbers and finding patterns so naturally I was interested in mathematics. I do both competitive mathematics and higher mathematics, and I am particular interested in Number Theory and Algebra.
+        <li>Physics: Physics is perhaps my favorite subject as I am able to apply the concepts I learn in mathematics to the real world. I have a particular interest in astrophysics and would like to understand the origins of our universe and the vast cosmos. I also enjoy reading many books on physics, especially the ones written by Richard Feynman.</li>
+        <li>Computer Science: Computer Science helps me get a better grasp of algorithms and how to apply them to solve problems.  </li>
+        <li>Tennis: I am a huge tennis fan and I enjoy both watching and playing tennis. I like all players in the Big 3 but if I were to choose, my favorite tennis player would be Rafael Nadal.</li>
+    </div>
+    <html-include src="footer.html"></html-include>
+  </div>
+  </body>
+</html>

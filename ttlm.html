@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>About Me</title>
+    <!-- Conditionally load WC polyfills -->
+    <!-- Thanks to https://github.com/geelen/x-gif for the snippet -->
+    <script>if (!('registerElement' in document
+      && 'createShadowRoot' in HTMLElement.prototype
+      && 'import' in document.createElement('link')
+      && 'content' in document.createElement('template'))) {
+            document.write('<script src="bower_components/webcomponentsjs/webcomponents.min.js"><\/script>');
+      }</script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="src/html-include.js"></script>
+  </head>
+  <body>
+    <div id="content-wrapper">
+    <html-include src="header.html"></html-include>
+    <br /><br />
+    <div id="page-content">
+      <h1>To The Limit Maths</h1>
+      <p> Hello there! To The Limit Maths is a math tutoring organization that I helped found with a few of my friends in high school. We are all very passionate about mathematics and hope to share our love for mathematics with you through our tutoring. Every tutor in our organization has passed an interview test making them qualified to teach you. We tutor students in school mathematics from Algebra 1 to Calculus BC (can go lower than Algebra 1 if needed) and we tutor students in competition math for the AMC.
+      <br>
+      <br> If you would like to check us out or learn more about us, click <a href= https://tothelimitmaths.org/>here</a> to browse our website.
+      <br>
+      <br> We have already created one mock AMC 10 and posted it on the AOPS forums. If you would like to access it, click here for the problems and click here for the solutions.
+      We are also in the process of creating a contest at the AIME level. We are planning to host the contest online during January 2022.</p>
+    </div>
+    <html-include src="footer.html"></html-include>
+  </div>
+  </body>
+</html>
